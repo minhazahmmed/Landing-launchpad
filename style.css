@@ -257,6 +257,7 @@ margin-bottom: 100px;
     background-color: #FFFFFF;
     border-radius: 14px;
     padding: 71px 150px;
+    margin-bottom: 100px;
 }
 
 .section-5 img{
@@ -272,8 +273,61 @@ margin-bottom: 100px;
 
 .section-5 p{
 margin-bottom: 20px;
+color: #00000070;
 }
 
 .section-5 button{
 margin-bottom: 20px;
 }
+
+/* section-5 design end */
+
+/* section-6 design start */
+.section-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF50;
+    padding:71px 0px; 
+}
+.section-6 h1{
+    font-size: 90px;
+    width: 95%;
+}
+
+
+.label-class{
+    font-size: 18px;
+    font-weight: 500;
+    
+    font-family: Inter;
+    
+    display: block;
+}
+.input-class{
+      font-size: 20px;
+    padding: 20px 32px;
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+    font-family: Inter;
+}
+.input-class-1{
+     font-size: 20px;
+    padding: 20px 32px;
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+    font-family: Inter; 
+}
+
+.btn-form{
+    padding:19px 101px;
+    width: 497px;
+}
+
+/* section-6 design end */
