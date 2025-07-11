@@ -4,6 +4,11 @@
 }
 body{
     background-color: #F5F8FF;
+     
+     margin: auto;
+}
+.dark-text{
+    color: #252432;
 }
 
 /* Header part design start */
@@ -15,7 +20,7 @@ body{
     margin: auto;
     margin-top: 0px;
    padding: 50px 0px;
-    margin-bottom: 120px;
+  
     align-items: center;
 
 
@@ -34,7 +39,7 @@ body{
     font-family: Inter;
     font-size: 40px;
     color: #4E47FF;
-     font-weight: 700;
+     font-weight: 800;
     
 }
 
@@ -78,13 +83,113 @@ margin: auto;
 }
 
 
-.banner button a{
+.btn-anchor{
     text-decoration: none;
     color:white;
     
 }
 .banner button{
-margin-bottom: 200px ;
+margin-bottom: 100px ;
 }
 
 /* Header part design end */
+
+/* main part design start */
+main{
+    
+    width: 79.1667%;
+    margin: auto;
+}
+
+/* section-2 design start */
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 100px;
+    margin-top:100px;
+    align-items: center;
+    
+}
+.section-2-text{
+    width: 50%;
+    
+    
+   
+}
+.section-2-img{
+    width: 50%;
+   
+    text-align: right;
+   
+    
+}
+.section-2-img img{
+     border-radius: 48px;
+}
+
+.section-2-text h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 23px;
+
+}
+
+.section-2-text p{
+    font-size: 24px;
+    color: #25243270;
+    margin-bottom: 23px;
+    
+}
+
+/* section-2 design end */
+
+/* section-3 design start */
+
+.section-3{
+    text-align: center;
+padding: 50px 80px;
+background-color: #4E47FF10;
+border-radius: 24px;
+margin-bottom: 100px;
+   
+}
+.section-3-heading{
+    font-size: 38px;
+    font-weight: 700;
+     width: 59.44444%;
+  margin: auto;
+  margin-bottom: 40px;
+    
+}
+.section-3-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 158px;
+
+}
+
+.section-3 h2{
+    margin bottom: 40px;
+   
+   
+}
+.section-3-text h1, .section-3-text p{
+    font-family: Inter;
+}
+
+.section-3-text h1{
+    color:#4E47FF;
+    font-size: 80px;
+    margin: auto;
+    
+   
+}
+.section-3-text p{
+    color: #00000070;
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* section-3 design end */
