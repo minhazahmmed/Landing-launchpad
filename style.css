@@ -289,6 +289,7 @@ margin-bottom: 20px;
     align-items: center;
     background-color: #FFFFFF50;
     padding:71px 0px; 
+   
 }
 .section-6 h1{
     font-size: 90px;
@@ -331,3 +332,64 @@ margin-bottom: 20px;
 }
 
 /* section-6 design end */
+
+/* Footer design start */
+
+footer{
+    
+    background-color:#FFFFFF;
+    border: 1px solid #00000010;
+    height: 428px;
+    
+    margin: auto;
+    text-align: center;
+}
+
+.footer-section{
+   
+    margin-top: 120px;
+}
+footer h1, 
+footer p, 
+footer a{
+    font-family: Inter;
+}
+
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+   
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin: 0px;
+     margin: auto;
+    width:36.875%;
+}
+
+footer p{
+    color:#8987A1;
+    font-size: 16px;
+    
+    margin: auto;
+    margin-top: 8px;
+    width:36.875%;
+}
+ul{
+    width: 27.847%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+ul li{
+list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color:#8987A1;
+    font-size: 16px;
+}
+
+/* footer design end */
