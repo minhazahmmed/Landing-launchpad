@@ -1,0 +1,90 @@
+*{
+    font-family: Raleway ;
+   box-sizing: border-box;
+}
+body{
+    background-color: #F5F8FF;
+}
+
+/* Header part design start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 79.1667%;
+    margin: auto;
+    margin-top: 0px;
+   padding: 50px 0px;
+    margin-bottom: 120px;
+    align-items: center;
+
+
+}
+.navbar-and-banner{
+    background-image: url("Assets/Hero-bg.png");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+    
+} 
+
+.navbar h1{
+    font-family: Inter;
+    font-size: 40px;
+    color: #4E47FF;
+     font-weight: 700;
+    
+}
+
+
+
+.navbar button a{
+    text-decoration: none;
+    color:white;
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+    transition: all 0.2s ease-in ;
+}
+
+.btn-all{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 18px 40px;
+    
+    border: none;
+}
+
+.banner{
+text-align: center;
+width: 62.8472%;
+margin: auto;
+}
+
+.banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 37px;
+   
+}
+
+
+.banner button a{
+    text-decoration: none;
+    color:white;
+    
+}
+.banner button{
+margin-bottom: 200px ;
+}
+
+/* Header part design end */
